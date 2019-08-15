@@ -1,0 +1,56 @@
+body {background-color: black; color:white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center}
+table {
+    margin: 0 auto;
+}
+.cell {
+    width:40px;
+    height:40px;
+    text-align: center
+}
+
+.cell img {
+    width:25px;
+    height:auto
+}
+
+.floor {
+    background-color: lightskyblue
+}
+
+.wall {background-color: gray}
+#score {
+    font-size: 24px
+}
+
+
+
+.won {
+    background-color: orange;
+    transition: 0.5s
+}
+
+.btn  {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 0;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: #9555af;
+    outline: none;
+}
+
+.btn:hover {
+    color: #9555af;
+    border-color: currentColor;
+    background-color: white;
+}
+
+
+
+
+.hide{
+    display: none
+}

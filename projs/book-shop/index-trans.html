@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Shop proj - Tamir</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/bs4/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style type="text/css">
+
+    </style>
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script> -->
+</head>
+
+<body onload="init()">
+
+    <h1 class="display-3" data-trans="title">The Book Shop</h1>
+    <div class="container">
+        <select onchange="onSetLang(this.value)">
+                <option value="en">English</option>
+                <option value="he">עברית</option>
+            </select>
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h2 data-trans="sub-title"> <strong>Books list</strong> </h2>
+                    </div>
+                    <div class="col-sm-7">
+                        <a href="#" class="btn btn-primary" onclick="onReadAndAddNewBook()"><i class="material-icons">&#xE147;</i> <span data-trans="filter-add-new-book">Add New Book</span></a>
+                        <!-- <a href="#" class="btn btn-primary"><i class="material-icons">&#xE24D;</i> <span>Export to Excel</span></a> -->
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th data-trans="filter-id">ID</th>
+                        <th data-trans="filter-title">Title</th>
+                        <th data-trans="filter-price">Price (USD)</th>
+                        <th data-trans="filter-cover">Cover</th>
+                        <th data-trans="filter-available">Available</th>
+                        <th data-trans="filter-action">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="books-table-container">
+                    <tr>
+                        <td>1</td>
+                        <td><a href="#"><span id="title-td">Michael Holz</span> </a></td>
+                        <td><span id="date-td"> US $35 </span> </td>
+                        <td><span id="role-td"><img src = "img/1.jpg" ></span></td>
+                        <td>
+                            <button>read</button>
+                            <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                            <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <a href="#"> Paula Wilson</a>
+                            </td>
+                            <td>US $35</td>
+                            <td>Publisher</td>
+                            <td><span class="status text-success">&bull;</span> Active</td>
+                            <td>
+                                <button>read</button>
+                                <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                                <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>
+                                <a href="#"> Antonio Moreno</a>
+                            </td>
+                            <td>US $20</td>
+                            <td>Publisher</td>
+                            <td><span class="status text-danger">&bull;</span> Suspended</td>
+                            <td>
+                                <button>read</button>
+                                <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                                <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                            </td>
+                        </tr>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Modal title</h5>
+                            <button onclick="onCloseModal()" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/1.jpg">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="onCloseModal()" data-trans="filter-close">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="clearfix">
+                <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+                <ul class="pagination">
+                    <li class="page-item disabled"><a href="#">Previous</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/i18n-service.js"></script>
+    <script src="js/books-util-service.js"></script>
+    <script src="js/books-service.js"></script>
+    <script src="js/books-main.js"></script>
+
+</body>
+
+</html>

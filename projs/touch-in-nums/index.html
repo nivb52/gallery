@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="touch-in-nums.css">
+    <title>Touch In Nums</title>
+</head>
+
+<body onload="init()">
+    <h1> Touch In Nums </h1>
+    <h2 class="win" style="visibility: hidden"> YOU WON !!</h2>
+    <div class="levels">
+        <span class="button selected" data-level="Easy" onclick="onChangeLevel('Easy')">Easy</span>
+        <span class="button" data-level="Medium" onclick="onChangeLevel('Medium')">Medium</span>
+        <span class="button" data-level="Hard" onclick="onChangeLevel('Hard')">Hard</span>
+    </div>
+
+    <table border="1">
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="touch-in-nums.js"></script>
+</body>
+
+</html>

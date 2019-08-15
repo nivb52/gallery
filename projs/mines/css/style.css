@@ -1,0 +1,74 @@
+
+table {
+    margin: 10px auto;
+}
+
+body {
+    text-align: center;
+}
+
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 300%;
+}
+.gameBoard td {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    transition: .5s;
+}
+
+.gameBoard td:hover {
+    background-color: lightsalmon;
+}
+
+
+button{
+    font-size: 16px;
+    min-width: 20px;
+    max-width: 100px;
+    min-height: 20px;
+    max-height: 1000px;
+}
+
+.timer {
+    font-size: 250%;
+    font-weight: bold
+}
+
+
+.btn  {
+    /* display: inline-block;
+    text-align: center;
+    text-decoration: none; */
+    margin: 2px 0;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: #9555af;
+    outline: none;
+}
+
+.btn:hover {
+    color: #9555af;
+    border-color: currentColor;
+    background-color: white;
+}
+
+.small{
+    font-size: 70%;
+    padding: 0.1em;
+
+}
+.hearts {
+    margin: 20px
+        /* content: ''; */
+    }
+.hearts > img {
+        width: 30px;
+}
+
+.hide{
+    display: none;
+}

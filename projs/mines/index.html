@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mines</title>
+</head>
+
+<body onload="init()">
+    <h1>Mines</h1>
+    <div class="main">
+        <div>
+        <!-- <button onclick="toggleGameOn(this)">&#10074;&#10074;</button> -->
+        <button class="btn" onclick="init()">Restart</button>
+        <button id="Hard-level" class="btn" onclick="init(2)">HARD</button>
+        <button id="Mid-level" class="btn" onclick="init(1)">MEDIUM</button>
+        <button id="Easy-level" class="btn" onclick="init(0)">EASY</button>
+        <button class="btn small" id="test" onclick="testing()">TESTING MODE</button>
+    </div>
+
+        <span id="face" style="font-size:3rem;width:100%;text-align:center;">&#128512</span>
+        <span id="face-dead" class="hide" style="font-size:3rem;width:100%;text-align:center; ">&#128165</span>
+        <!-- 😠 -->
+        <div class="timer">
+            <span>00:00</span>
+        </div>
+        <!-- HEART:  &#9829 -->
+        <div class="hearts">
+            <img src="css/img/heart.png" />
+            <img src="css/img/heart.png" />
+            <img src="css/img/heart.png" />
+        </div>
+        <h2 class=".hide">YOU WON !!</h2>
+        <table border="1">
+            <tbody class="gameBoard"></tbody>
+        </table>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/render.js"></script>
+</body>
+
+</html>

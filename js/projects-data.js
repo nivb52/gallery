@@ -1,14 +1,14 @@
 'use strict';
 
 function createProjects() {
-    // id is also img name as jpg
+    // ID IS ALSO IMG NAME AS JPG 
     return [
         //1 
         {
             id: 'YachtAway',
             name: 'AirBNB of Yachts',
             subtitle: 'Airbnb marketplace in VueX & VueJs',
-            desc: 'Desc',
+            desc: 'An Airbnb market place, Publish of Yachts and Rent them, with PayPal intefration, booking option for later payment.',
             url: 'https://yachtaway.herokuapp.com/',
             IsLocal: false,
 
@@ -21,9 +21,9 @@ function createProjects() {
             id: 'hva',
             name: 'Book your Travel',
             subtitle: 'One page Bootstrap 3 & JS, Single Page App',
-            desc: 'Desc',
+            desc: 'This single page website, with the amazing desgin and SEO inmind, using css html and lazy loading',
             url: 'https://haifa-vacation-apartments.com/',
-            IsLocal: false,
+            isLocal: false,
 
             publishedAt: 1564568859000,  // 31 July 2019 10:27:39
             labels: ['Vanilla JS', 'CSS', 'HTML', 'BOOTSTRAP 3'],
@@ -35,7 +35,7 @@ function createProjects() {
             id: 'haifavacation',
             name: 'Rent an Apartment',
             subtitle: 'Rent apartment in Israel, using CSS , HTML and JS, website',
-            desc: 'Desc',
+            desc: 'JavaScript website with translation, SEO in mind, ',
             url: 'https://haifavacation.co.il/',
             IsLocal: false,
 

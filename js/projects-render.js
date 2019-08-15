@@ -42,7 +42,7 @@ function renderModal(getProj) {
     return getProj === project.id
   });
   //INSIDE PROJECT DATA FOR DOM : 
-  var projectUrl = proj.IsLocal ? `${proj.url}/index.html` : proj.url
+  var projectUrl = proj.isLocal ? `${proj.url}/index.html` : proj.url
   var strHTMLS = `<h2 class="light">${proj.name}</h2>
                 <ul class="list-inline light">
                   <li>created on: ${createDateFromStamp(proj.publishedAt)}</li>

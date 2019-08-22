@@ -45,7 +45,20 @@ function createProjects() {
             imgFromOtherSource: false
         },
 
-        //4:
+        {
+            id: 'misterbitcoin-react',
+            name: 'Mister Bitcoin',
+            subtitle: 'React single page application',
+            desc: 'Using React routing, animations state managment with Redux hundling data like a pro!',
+            url: 'https://nivb52.github.io/react-bitcoin/',
+            IsLocal: true,
+
+            publishedAt: 1566507654000, // 22 Aug 2019
+            labels: ['React', 'ReactJs'],
+            imgFromOtherSource: false
+        },
+
+
         {
             id: 'ball-board',
             name: 'Catch The Ball',
@@ -59,7 +72,7 @@ function createProjects() {
             imgFromOtherSource: false
         },
 
-        //5
+
         {
             id: 'canvas-meme-generator',
             name: 'Meme Generator',
@@ -74,7 +87,6 @@ function createProjects() {
         },
 
 
-        //6 
         {
             id: 'mines',
             name: 'Mine Sweeper',
@@ -88,7 +100,6 @@ function createProjects() {
             imgFromOtherSource: false
         },
 
-        //7
         {
             id: 'book-shop',
             name: 'book shop',
@@ -102,7 +113,6 @@ function createProjects() {
             imgFromOtherSource: false
         },
 
-        //8
         {
             id: 'todosvuex',
             name: 'Todos',
@@ -116,7 +126,6 @@ function createProjects() {
             imgFromOtherSource: false
         },
 
-        //9
         {
             id: 'touch-in-nums',
             name: 'touch the numes',
@@ -128,7 +137,7 @@ function createProjects() {
             labels: ['Game', 'Vanilla JS', 'JavaScript'],
             imgFromOtherSource: false
         },
-        //10
+
         {
             id: 'mth',
             name: 'Haifa technology center',

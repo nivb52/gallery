@@ -58,6 +58,84 @@ function createProjects() {
             imgFromOtherSource: false
         },
 
+        {
+            id: 'guess-me',
+            name: 'Akinator',
+            subtitle: 'I will guess any character you will choose',
+            desc: 'In vanilla JS this smart Jene will guess any character you have in mind with just some smple Yes/No questions',
+            url: 'projs/guess-me',
+            isLocal: true,
+
+            publishedAt: 1559768454000, //  5 Jun 2019
+            labels: ['Game', 'Vanilla JS', 'complicate'],
+            imgFromOtherSource: false
+        },
+
+
+        {
+            id: 'mines',
+            name: 'Mine Sweeper',
+            subtitle: 'Clean Desgin Sweeper',
+            desc: 'The Famouse Windows Minesweeper Free Online in JavaScript. Play the classic game in Beginner level, Intermediate, Expert or in Test modes.',
+            url: 'projs/mines',
+            isLocal: true,
+
+            publishedAt: 1348693940000,
+            labels: ['Game', 'Vanilla JS', 'matrix', '2D'],
+            imgFromOtherSource: false
+        },
+
+        {
+            id: 'todosvuex',
+            name: 'Todos',
+            subtitle: 'with VueX',
+            desc: 'Vue.js is a Progressive JavaScript Framework, with the ability to "building things in no time" - as said in there website. At the moment (8/2019) VueJs is more popular than Angular',
+            url: 'projs/todo-vuex-localstorage',
+            isLocal: true,
+
+            publishedAt: 1564568859000, // 31 Jul 2019
+            labels: ['VueX', 'VueJs', 'Vue Cli', 'Framework', 'sprint'],
+            imgFromOtherSource: false
+        },
+
+        {
+            id: 'book-shop',
+            name: 'book shop',
+            subtitle: 'CRUDL with jQuery',
+            desc: 'des',
+            url: 'projs/book-shop',
+            isLocal: true,
+
+            publishedAt: 1559557659000, //  3 Jun 2019
+            labels: ['jQuery', 'i18n'],
+            imgFromOtherSource: false
+        },
+               
+
+        {
+            id: 'mth',
+            name: 'Haifa technology center',
+            subtitle: 'Wordpress website',
+            desc: 'The Haifa technology center is a project in WP with several admins and opinions about styleing a website :)',
+            url: 'https://mth.org.il',
+            isLocal: false,
+
+            publishedAt: 1488647465000, // 04 March 2017
+            labels: ['Wordpress'],
+            imgFromOtherSource: 'https://mth.org.il/assets/media/2019/06/IMG_20171211_081142-1024x578.jpg'
+        },
+
+        {
+            id: 'touch-in-nums',
+            name: 'touch the numes',
+            subtitle: 'with Vanilla JS',
+            desc: 'Games That Matter. Touch Press provides high-quality games that are also opportunities to engage with key academic subjects and skills',
+            url: 'projs/touch-in-nums',
+            isLocal: true,
+            publishedAt: 1557656859000, // 12 May 2019
+            labels: ['Game', 'Vanilla JS', 'JavaScript'],
+            imgFromOtherSource: false
+        },
 
         {
             id: 'ball-board',
@@ -85,71 +163,9 @@ function createProjects() {
             labels: ['Canvas', 'git', 'sprint'],
             imgFromOtherSource: false
         },
+      
 
-
-        {
-            id: 'mines',
-            name: 'Mine Sweeper',
-            subtitle: 'Clean Desgin Sweeper',
-            desc: 'The Famouse Windows Minesweeper Free Online in JavaScript. Play the classic game in Beginner level, Intermediate, Expert or in Test modes.',
-            url: 'projs/mines',
-            isLocal: true,
-
-            publishedAt: 1348693940000,
-            labels: ['Game', 'Vanilla JS', 'matrix', '2D'],
-            imgFromOtherSource: false
-        },
-
-        {
-            id: 'book-shop',
-            name: 'book shop',
-            subtitle: 'CRUDL with jQuery',
-            desc: 'des',
-            url: 'projs/book-shop',
-            isLocal: true,
-
-            publishedAt: 1559557659000, //  3 Jun 2019
-            labels: ['jQuery', 'i18n'],
-            imgFromOtherSource: false
-        },
-
-        {
-            id: 'todosvuex',
-            name: 'Todos',
-            subtitle: 'with VueX',
-            desc: 'Vue.js is a Progressive JavaScript Framework, with the ability to "building things in no time" - as said in there website. At the moment (8/2019) VueJs is more popular than Angular',
-            url: 'projs/todo-vuex-localstorage',
-            isLocal: true,
-
-            publishedAt: 1564568859000, // 31 Jul 2019
-            labels: ['VueX', 'VueJs', 'Vue Cli', 'Framework', 'sprint'],
-            imgFromOtherSource: false
-        },
-
-        {
-            id: 'touch-in-nums',
-            name: 'touch the numes',
-            subtitle: 'with Vanilla JS',
-            desc: 'Games That Matter. Touch Press provides high-quality games that are also opportunities to engage with key academic subjects and skills',
-            url: 'projs/touch-in-nums',
-            isLocal: true,
-            publishedAt: 1557656859000, // 12 May 2019
-            labels: ['Game', 'Vanilla JS', 'JavaScript'],
-            imgFromOtherSource: false
-        },
-
-        {
-            id: 'mth',
-            name: 'Haifa technology center',
-            subtitle: 'Wordpress website',
-            desc: 'The Haifa technology center is a project in WP with several admins and opinions about styleing a website :)',
-            url: 'https://mth.org.il',
-            isLocal: false,
-
-            publishedAt: 1488647465000, // 04 March 2017
-            labels: ['Wordpress'],
-            imgFromOtherSource: 'https://mth.org.il/assets/media/2019/06/IMG_20171211_081142-1024x578.jpg'
-        },
+      
 
 
         // Bank Dash Controller', 'On this page you will find several links to several of our online Bitcoin services. These weblink online services include demo\'s for consumer online banking,

@@ -27,7 +27,7 @@ h6 {
     text-transform: uppercase;
 }
 section {
-    padding: 100px 0;
+    padding: 4rem 0;
 }
 section h2.section-heading {
     font-size: 40px;
@@ -44,7 +44,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 150px 0;
+        padding: 5vh 0;
     }
 }
 ::-moz-selection {

@@ -62,12 +62,12 @@ function createProjects() {
             id: 'guess-me',
             name: 'Akinator',
             subtitle: 'I will guess any character you will choose',
-            desc: 'In vanilla JS this smart Jene will guess any character you have in mind with just some smple Yes/No questions',
+            desc: 'In jQuery this smart Jene will guess any character you have in mind with just some smple Yes/No questions',
             url: 'projs/guess-me',
             isLocal: true,
 
             publishedAt: 1559768454000, //  5 Jun 2019
-            labels: ['Game', 'Vanilla JS', 'complicate'],
+            labels: ['Game', 'jQuery', 'complicated Objects'],
             imgFromOtherSource: false
         },
 

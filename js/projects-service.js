@@ -22,11 +22,13 @@ function saveUsers() {
 
 
 
-function sendMail() {
+function sendMessage(type) {
     var mail = document.querySelector('.input-mail');
     var sub = document.querySelector('.input-sub');
     var msg = document.querySelector('.input-msg');
-    var url = createEmailUrl(mail.value, sub.value, msg.value)
+    var url
+    if (type.toLowerCase() === 'mail') url = createEmailUrl(mail.value, sub.value, msg.value)
+    else url = createWhatsApp(mail.value, sub.value, msg.value)
     redirectTo(url);
 }
 

@@ -6,5 +6,10 @@ function initPage(){
 }
 
 function onSendMail(){
-    sendMail();
+    sendMessage('mail');
 }
+
+function onSendWhatsapp(){
+    sendMessage('whatsapp');
+}
+

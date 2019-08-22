@@ -11,7 +11,7 @@ function createProjects() {
             subtitle: 'Airbnb marketplace in VueX & VueJs',
             desc: 'An Airbnb market place, Publish of Yachts and Rent them, with PayPal intefration, booking option for later payment.',
             url: 'https://yachtaway.herokuapp.com/',
-            IsLocal: false,
+            isLocal: false,
 
             publishedAt: 1564568859000,  // 31 July 2019
             labels: ['VueX', 'VueJs', 'Vue Cli', 'Framework', 'sprint-3 weeks'],
@@ -38,7 +38,7 @@ function createProjects() {
             subtitle: 'Rent apartment in Israel, using CSS , HTML and JS, website',
             desc: 'Javascript website with translation, SEO in mind, rendering data with JavaScript',
             url: 'https://haifavacation.co.il/',
-            IsLocal: false,
+            isLocal: false,
 
             publishedAt: 1452013865000,  // 1 May 2016
             labels: ['Vanilla JS', 'CSS', 'JavaScript', 'HTML'],
@@ -51,7 +51,7 @@ function createProjects() {
             subtitle: 'React single page application',
             desc: 'Using React routing, animations state managment with Redux hundling data like a pro!',
             url: 'https://nivb52.github.io/react-bitcoin/',
-            IsLocal: true,
+            isLocal: false,
 
             publishedAt: 1566507654000, // 22 Aug 2019
             labels: ['React', 'ReactJs'],
@@ -65,7 +65,7 @@ function createProjects() {
             subtitle: 'Catch Them All',
             desc: 'Board games in Vanilla JS can show you the possiblities to create a fast play game with the no need of jQuery or any framework!, jst 8kb !',
             url: 'projs/ball-board',
-            IsLocal: true,
+            isLocal: true,
 
             publishedAt: 1557829659000, // 14 May 19
             labels: ['Game', 'Vanilla JS'],
@@ -79,7 +79,7 @@ function createProjects() {
             subtitle: 'with Cnavas',
             desc: 'canvas meme generator. Drag, Edit and play it',
             url: 'https://nivb52.github.io/meme-generator/',
-            IsLocal: false,
+            isLocal: false,
 
             publishedAt: 1560421659000,  // 13 Jun 2019
             labels: ['Canvas', 'git', 'sprint'],
@@ -93,7 +93,7 @@ function createProjects() {
             subtitle: 'Clean Desgin Sweeper',
             desc: 'The Famouse Windows Minesweeper Free Online in JavaScript. Play the classic game in Beginner level, Intermediate, Expert or in Test modes.',
             url: 'projs/mines',
-            IsLocal: true,
+            isLocal: true,
 
             publishedAt: 1348693940000,
             labels: ['Game', 'Vanilla JS', 'matrix', '2D'],
@@ -106,7 +106,7 @@ function createProjects() {
             subtitle: 'CRUDL with jQuery',
             desc: 'des',
             url: 'projs/book-shop',
-            IsLocal: true,
+            isLocal: true,
 
             publishedAt: 1559557659000, //  3 Jun 2019
             labels: ['jQuery', 'i18n'],
@@ -119,7 +119,7 @@ function createProjects() {
             subtitle: 'with VueX',
             desc: 'Vue.js is a Progressive JavaScript Framework, with the ability to "building things in no time" - as said in there website. At the moment (8/2019) VueJs is more popular than Angular',
             url: 'projs/todo-vuex-localstorage',
-            IsLocal: true,
+            isLocal: true,
 
             publishedAt: 1564568859000, // 31 Jul 2019
             labels: ['VueX', 'VueJs', 'Vue Cli', 'Framework', 'sprint'],
@@ -132,7 +132,7 @@ function createProjects() {
             subtitle: 'with Vanilla JS',
             desc: 'Games That Matter. Touch Press provides high-quality games that are also opportunities to engage with key academic subjects and skills',
             url: 'projs/touch-in-nums',
-            IsLocal: true,
+            isLocal: true,
             publishedAt: 1557656859000, // 12 May 2019
             labels: ['Game', 'Vanilla JS', 'JavaScript'],
             imgFromOtherSource: false
@@ -144,7 +144,7 @@ function createProjects() {
             subtitle: 'Wordpress website',
             desc: 'The Haifa technology center is a project in WP with several admins and opinions about styleing a website :)',
             url: 'https://mth.org.il',
-            IsLocal: false,
+            isLocal: false,
 
             publishedAt: 1488647465000, // 04 March 2017
             labels: ['Wordpress'],

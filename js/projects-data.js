@@ -27,7 +27,7 @@ function createProjects() {
             isLocal: false,
 
             publishedAt: 1362157865000,  // 1 March 2013 
-            labels: ['Vanilla JS', 'CSS', 'HTML', 'BOOTSTRAP 3'],
+            labels: ['Vanilla JS', 'CSS', 'HTML'],
             imgFromOtherSource: false
         },
         //3
@@ -41,7 +41,7 @@ function createProjects() {
             isLocal: false,
 
             publishedAt: 1452013865000,  // 1 May 2016
-            labels: ['Vanilla JS', 'CSS', 'JavaScript', 'HTML'],
+            labels: ['Vanilla JS', 'CSS', 'JavaScript', 'HTML', 'BOOTSTRAP'],
             imgFromOtherSource: false
         },
 

@@ -1,2 +1,11 @@
 @import './ca-gallery.css';
 @import './over-rides.css';
+
+
+.text-center {
+    text-align: center;
+}
+
+.size-med {
+    font-size: 1.25rem;
+}

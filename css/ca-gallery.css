@@ -321,6 +321,8 @@ header.masthead .intro-text .intro-heading {
 .light{
     color: #fff;
 }
+
+
 .portfolio-modal .modal-content {
     background-color: black;
     background-position: center;
@@ -768,7 +770,7 @@ fieldset[disabled] .btn-xl:hover {
     color: #fff;
     font-size: 1.5rem;
     width: 90vw;
-    max-width: 270px;
+    max-width: 235px;
     height: 8vh;
     background-color: #fea736;
     border: none;

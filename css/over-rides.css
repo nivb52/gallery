@@ -12,3 +12,7 @@
     width: 1.7em ;
     line-height: 1.8em ;  
 }
+
+.offcanvas-aside {
+    min-width: 315px;
+}

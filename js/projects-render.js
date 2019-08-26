@@ -37,7 +37,7 @@ function createLabels(project) {
 
 // MODAL
 function renderModal(getProj) {
-  var inButtonTxt = 'Take me there !'
+
   var proj = gProjects.find(function (project) {
     return getProj === project.id
   });
@@ -50,7 +50,7 @@ function renderModal(getProj) {
                 <p class="light">${proj.desc}</p>
                 <button class="btn btn-success">
                 <a class="light" href='${projectUrl}'>
-                    ${inButtonTxt}
+                  Take me there !
                 </a>
                 </button>`;
   var elList = document.querySelector('.modal-body'); //MODAL DIV
